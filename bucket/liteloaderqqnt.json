@@ -1,0 +1,16 @@
+{
+    "version": "1.2.2",
+    "description": "QQNT 插件加载器",
+    "homepage": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT",
+    "license": "MIT",
+    "depends": "zuoye-scoop/qqntfileverifypatch",
+    "url": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.2/LiteLoaderQQNT.zip",
+    "hash": "a325c592ec53b7469c44f7eea5d27a0984e14d54ccd8d596446d0938bc91d561",
+    "env_set": {
+        "LITELOADERQQNT_PROFILE": "$persist_dir"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip"
+    }
+}
