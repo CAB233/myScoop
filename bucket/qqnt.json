@@ -1,0 +1,41 @@
+{
+    "version": "9.9.15.28418",
+    "homepage": "https://im.qq.com/pcqq/index.shtml",
+    "description": "An instant messaging software service developed by Tencent.",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://ti.qq.com/agreement/index.html"
+    },
+    "notes": "Scoop don't persist QQNT data.",
+    "architecture": {
+        "64bit": {
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/206bfa62/QQ9.9.15.28418_x64.exe#/dl.7z",
+            "hash": "99c9c0da086a0695a8290a8b2c84a0b6b2694b4eedd3d6c026a37d7f18b0ed0e"
+        },
+        "32bit": {
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/25937b39/QQ9.9.15.28418_x86.exe#/dl.7z",
+            "hash": "76c11a9fb259e2f4a24be428735b4dd90545ea5d61e54f5563f5449eb1de4aa0"
+        }
+    },
+    "extract_dir": "Files",
+    "shortcuts": [
+        [
+            "QQ.exe",
+            "QQ"
+        ]
+    ],
+    "checkver": {
+        "url": "https://telemetr.io/en/channels/1606833156-qqupdates",
+        "regex": "(?<x64>https://[a-z\\d./]+/QQNT/[\\da-z]+/QQ(?<version>[\\d.]+)_x64(_QQinner)?\\.exe).+(?<x86>https://[a-z\\d./]+/QQNT/[\\da-z]+/QQ\\k<version>_x86(_QQinner)?\\.exe).+(?<arm64>https://[a-z\\d./]+/QQNT/[\\da-z]+/QQ\\k<version>_arm64(_QQinner)?\\.exe)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$matchX64#/dl.7z"
+            },
+            "32bit": {
+                "url": "$matchX86#/dl.7z"
+            }
+        }
+    }
+}
