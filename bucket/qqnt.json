@@ -1,5 +1,5 @@
 {
-    "version": "_QQinner",
+    "version": "9.9.16.28788",
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "description": "An instant messaging software service developed by Tencent.",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "Scoop don't persist QQNT data.",
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/46d323ba/QQ9.9.15.28418_x64_QQinner.exe#/dl.7z",
-            "hash": "22e3987051ee92b23927d51738adf97e60f77f30145bdb067cdd640efe14b1d0"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/73b0c8f6/QQ9.9.16.28788_x64.exe#/dl.7z",
+            "hash": "d73d67fb44b587a14fd104074f8d803d72e9f51cc66e09f5c7193f8c6efd496b"
         },
         "32bit": {
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/12076cc6/QQ9.9.15.28418_x86_QQinner.exe#/dl.7z",
-            "hash": "a41f0e69820e51012b71a49c182118c6ef59bb5913cecbd7920b752c620922c0"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/9fc40e7a/QQ9.9.16.28788_x86.exe#/dl.7z",
+            "hash": "3f438e122e660e1f371d76f75f54871d42e9a58f8737bfb7c1a447a80ab9e622"
         }
     },
     "extract_dir": "Files",
