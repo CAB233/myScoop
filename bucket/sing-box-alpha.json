@@ -1,23 +1,23 @@
 {
-    "version": "1.11.0-beta.7",
+    "version": "1.11.0-beta.8",
     "description": "The universal proxy platform.",
     "homepage": "https://sing-box.sagernet.org/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.7/sing-box-1.11.0-beta.7-windows-amd64.zip",
-            "hash": "1c8605ce8dedd87919bc85256ca2afaece67d8f024c314b499b944ce42a17377",
-            "extract_dir": "sing-box-1.11.0-beta.7-windows-amd64"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.8/sing-box-1.11.0-beta.8-windows-amd64.zip",
+            "hash": "4f6aa7409618872214675594cb783acc4fd152c763f83a4a3fa9769fb44962c5",
+            "extract_dir": "sing-box-1.11.0-beta.8-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.7/sing-box-1.11.0-beta.7-windows-386.zip",
-            "hash": "1a87b9d2aff39b47ffdd03e700efaeb6b68de62fbedafe7086452535a84115f5",
-            "extract_dir": "sing-box-1.11.0-beta.7-windows-386"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.8/sing-box-1.11.0-beta.8-windows-386.zip",
+            "hash": "a581574e6f02a45d4a2766fa21456a292dd2fe850b801449df31385da879b600",
+            "extract_dir": "sing-box-1.11.0-beta.8-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.7/sing-box-1.11.0-beta.7-windows-arm64.zip",
-            "hash": "203b71548ec321dfe2f76e1af89b5827d5e037d583f468e20a360a4acbf1fad9",
-            "extract_dir": "sing-box-1.11.0-beta.7-windows-arm64"
+            "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.8/sing-box-1.11.0-beta.8-windows-arm64.zip",
+            "hash": "0b74389268c55f4c5dfec76ae89477695a9fe1e8bb615d3efa6a229b63570c4b",
+            "extract_dir": "sing-box-1.11.0-beta.8-windows-arm64"
         }
     },
     "bin": "sing-box.exe",
