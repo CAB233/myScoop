@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.24/sing-box-1.11.0-beta.24-windows-amd64.zip",
-            "hash": "49af61c17e9f5b14d453ad567d4b90cba59d05f238a226cf1ac1ff05d7877c7e",
+            "hash": "d375915dde24bc6843373a4b3d6c6b2150610b290a651af61ee309672c7d378d",
             "extract_dir": "sing-box-1.11.0-beta.24-windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/SagerNet/sing-box/releases/download/v1.11.0-beta.24/sing-box-1.11.0-beta.24-windows-386.zip",
-            "hash": "3ff138db30005cfd2079794ceef0e7eb257f3c0ddd7b41c7c52114388cdae2ef",
+            "hash": "8075b1333c08c8cb2d21b27b2aab753b25762e4c6baadb4e19846294638098c2",
             "extract_dir": "sing-box-1.11.0-beta.24-windows-386"
         }
     },
